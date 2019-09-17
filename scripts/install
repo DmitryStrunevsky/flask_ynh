@@ -79,6 +79,7 @@ function init_venv()
     set +o nounset 
     source venv/bin/activate
     set -o nounset 
+    pip install pyyaml
     pip install Flask
     pip install Flask-Script
     pip install Flask-SQLAlchemy
